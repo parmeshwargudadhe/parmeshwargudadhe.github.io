@@ -6,7 +6,7 @@
   --rule: #e3e6ea;
   --link: #1f5fd0;
   --c-mail: #1f5fd0;
-  --c-tel: #0b7a5c;
+  --c-tel: #1f5fd0;
   --c-web: #6d28d9;
   --c-li: #0a66c2;
   --c-gh: #24292f;
@@ -21,7 +21,7 @@
     --rule: #262b32;
     --link: #8fb6ff;
     --c-mail: #8fb6ff;
-    --c-tel: #4fd1a5;
+    --c-tel: #8fb6ff;
     --c-web: #b794ff;
     --c-li: #6ea8fe;
     --c-gh: #d0d7de;
@@ -280,7 +280,7 @@ p { margin: 0 0 0.6rem; }
     /* Pin accents to their light values: prefers-color-scheme can otherwise
        apply the dark palette, which is unreadable on white paper. */
     --c-mail: #1f5fd0;
-    --c-tel: #0b7a5c;
+    --c-tel: #1f5fd0;
     --c-web: #6d28d9;
     --c-li: #0a66c2;
     --c-gh: #24292f;
