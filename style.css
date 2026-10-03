@@ -186,8 +186,8 @@ p { margin: 0 0 0.6rem; }
 .entry li { margin-bottom: 0.25rem; }
 
 .skill-group {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 185px 1fr;
   align-items: baseline;
   gap: 0.15rem 0.75rem;
 }
@@ -195,18 +195,18 @@ p { margin: 0 0 0.6rem; }
 .skill-group + .skill-group { margin-top: 0.45rem; }
 
 .skill-group h3 {
-  flex: 0 0 auto;
-  min-width: 11rem;
   margin: 0;
   font-size: 0.925rem;
   font-weight: 600;
   color: var(--muted);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .skill-group p {
-  flex: 1 1 18rem;
   margin: 0;
+  word-wrap: break-word;
 }
 
 .certs {
