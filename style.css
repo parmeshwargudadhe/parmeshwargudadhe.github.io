@@ -288,14 +288,9 @@ p { margin: 0 0 0.6rem; }
 
   body { padding: 0; font-size: 10.5pt; line-height: 1.4; }
 
-  a { text-decoration: none; }
-  a[href^="http"]::after {
-    content: " (" attr(href) ")";
-    font-size: 9pt;
-    color: #555;
-  }
-  .contact a[href^="http"]::after,
-  .entry h3 a::after { content: none; }
+  a { text-decoration: none; color: #000; }
+  /* Remove URL footnotes for cleaner ATS-friendly PDF */
+  a[href^="http"]::after { content: none; }
 
   .header { padding-bottom: 0.7rem; }
   .identity h1 { font-size: 1.4rem; }

@@ -1,0 +1,125 @@
+================================================================================
+PARMESHWAR GUDADHE — DEVOPS ENGINEER RESUME
+================================================================================
+
+SUMMARY
+-------
+DevOps Engineer with 6+ years of experience in cloud infrastructure, automation
+and CI/CD across AWS and Azure. Skilled in building scalable, secure platforms
+using Bicep, Terraform, Ansible and Kubernetes, with hands-on experience in
+container orchestration, infrastructure as code and CI/CD pipeline design.
+
+Contact: param@mail.com | +918855919797 | Pune, Maharashtra, India
+LinkedIn: linkedin.com/in/parmeshwargudadhe | GitHub: github.com/parmeshwargudadhe
+
+
+EXPERIENCE
+----------
+
+DevOps Engineer
+Sparecode Consulting LLP, Mumbai — May 2023 to Present
+Client: Global professional certification and education organization
+
+• Managed Azure cloud infrastructure including App Services, VNets, subnets,
+  firewalls, load balancers, routing and VPN gateways, ensuring highly
+  available and secure environments.
+
+• Built and optimized Azure DevOps CI/CD pipelines and enforced Git/GitHub
+  repository standards, branching strategies and pull-request workflows for
+  version-controlled, faster and more reliable deployments.
+
+• Containerized applications with Docker and deployed scalable workloads on
+  Kubernetes (AKS) with automated scaling, health checks and rolling updates.
+
+• Implemented Invicti (Netsparker) for SAST/DAST, automating security scans
+  and integrating results into Azure DevOps pipelines.
+
+• Enabled reusable infrastructure patterns using Bicep, and automated
+  provisioning and configuration with Shell and Python scripts to standardize
+  deployments and enable self-service.
+
+• Implemented monitoring and observability with Datadog, Azure Monitor and
+  CloudWatch, while enforcing IAM access control and secure configurations
+  to improve reliability and reduce MTTR.
+
+
+Junior Associate
+Affinity Express, Pune — Aug 2020 to Nov 2021
+Client: Global mass-customization and digital commerce platform
+
+• Provisioned and managed AWS infrastructure (EC2, VPC, IAM, S3, Route53,
+  CloudWatch) supporting production workloads, with CloudWatch monitoring
+  and alerting for proactive issue detection.
+
+• Developed CI/CD workflows to automate code deployments using Git and
+  Jenkins, working closely with development teams to integrate build,
+  test and deployment stages.
+
+• Implemented Terraform for cloud provisioning and Ansible for configuration
+  automation, and automated backup, log archival and health-check tasks.
+
+• Performed Linux server administration (Ubuntu, Amazon Linux) including
+  patching, troubleshooting and performance optimization.
+
+• Integrated security checks into CI/CD pipelines to ensure secure,
+  compliant application deployments.
+
+
+Junior Production Associate
+Affinity Express, Pune — Jan 2019 to Jul 2020
+Client: Leading web hosting and domain services provider
+
+• Supported cloud-based hosting environments by managing AWS instances,
+  DNS configurations, SSL certificates and server performance.
+
+• Automated recurring operational tasks using Bash scripting for deployments,
+  site migrations and server maintenance.
+
+• Managed application deployments and environment setup for WordPress and
+  web applications on Linux servers, adopting Git for version control and
+  standardized environment management.
+
+• Assisted with IAM hardening, SSL/TLS configuration and security group
+  rules, and performed root-cause analysis of hosting issues to improve uptime.
+
+
+Project Intern
+North Maharashtra University, Jalgaon — Jan 2018 to Dec 2018
+GIMP Localization (Marathi)
+
+• Led a team of 8 interns to localize GIMP into Marathi for Linux environments.
+
+• Developed automated build and deployment workflows for packaging and
+  distribution.
+
+• Contributed the localized GIMP build to the GNOME project, making it
+  publicly available to the community.
+
+
+SKILLS
+------
+Cloud Platforms:       Microsoft Azure, AWS (EC2, VPC, IAM, S3, CloudWatch)
+CI/CD & DevOps Tools:  Azure DevOps, Jenkins, GitHub Actions
+Containers & Orchestration: Docker, Kubernetes (AKS), familiar with EKS concepts
+Infrastructure as Code: Bicep, Terraform, Ansible
+Monitoring & Logging:  Datadog, Azure Monitor, AWS CloudWatch
+Scripting:             Shell, Bash, Python
+Version Control:       Git, GitHub
+Security:              IAM, Secure CI/CD, SAST/DAST (Invicti, Carrier), Wiz
+
+
+CERTIFICATIONS
+--------------
+• AWS Certified Solutions Architect – Associate
+• Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+
+EDUCATION
+---------
+M.Sc. Information Technology
+North Maharashtra University, Jalgaon — Jun 2016 to Jun 2018
+
+
+================================================================================
+Last updated: October 2026
+================================================================================
