@@ -112,6 +112,7 @@ CERTIFICATIONS
 --------------
 • AWS Certified Solutions Architect – Associate
 • Microsoft Certified: Azure Administrator Associate (AZ-104)
+• Microsoft Certified: Azure DevOps Engineer Expert (AZ-400)
 
 
 EDUCATION
