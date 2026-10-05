@@ -20,6 +20,18 @@ DevOps Engineer
 Sparecode Consulting LLP, Mumbai — May 2023 to Present
 Client: Global professional certification and education organization
 
+• Led the migration of **Azure DevOps Server 2020 to Azure DevOps Services**, covering discovery, planning, pilot, production migration, validation, and post-migration activities.
+
+• Performed detailed assessment of the existing environment, including **projects, repositories, build/release pipelines, agent pools, self-hosted agents, and Azure DevOps/SQL Server dependencies**.
+
+• Coordinated the required **SQL Server upgrade/migration stepping-stone** to bring the existing Azure DevOps Server environment to a supported version before migrating to Azure DevOps Services.
+
+• Migrated and validated **source repositories, build pipelines, release pipelines, agent configurations, and associated DevOps workloads**, ensuring application delivery processes continued after migration.
+
+• Troubleshot migration-related issues involving **Azure DevOps agents, pipelines, permissions, authentication, network/VPN access, and Azure DevOps tooling**.
+
+• Worked with stakeholders and migration teams to document prerequisites, access requirements, migration dependencies, validation steps, and production cutover activities.
+
 • Managed Azure cloud infrastructure including App Services, VNets, subnets,
   firewalls, load balancers, routing and VPN gateways, ensuring highly
   available and secure environments.
@@ -99,7 +111,7 @@ GIMP Localization (Marathi)
 SKILLS
 ------
 Cloud Platforms:       Microsoft Azure, AWS (EC2, VPC, IAM, S3, CloudWatch)
-CI/CD & DevOps Tools:  Azure DevOps, Jenkins, GitHub Actions
+CI/CD & DevOps Tools:  Azure DevOps (Server to Services migration), Jenkins, GitHub Actions
 Containers & Orchestration: Docker, Kubernetes (AKS), familiar with EKS concepts
 Infrastructure as Code: Bicep, Terraform, Ansible
 Monitoring & Logging:  Datadog, Azure Monitor, AWS CloudWatch
