@@ -111,7 +111,7 @@ GIMP Localization (Marathi)
 SKILLS
 ------
 Cloud Platforms:       Microsoft Azure, AWS (EC2, VPC, IAM, S3, CloudWatch)
-CI/CD & DevOps Tools:  Azure DevOps (Server to Services migration), Jenkins, GitHub Actions
+CI/CD & DevOps Tools:  Azure DevOps, Jenkins, GitHub Actions
 Containers & Orchestration: Docker, Kubernetes (AKS), familiar with EKS concepts
 Infrastructure as Code: Bicep, Terraform, Ansible
 Monitoring & Logging:  Datadog, Azure Monitor, AWS CloudWatch
