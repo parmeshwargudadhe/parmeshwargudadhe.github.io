@@ -1,0 +1,39 @@
+name: Regenerate resume PDF
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - index.html
+      - style.css
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the site
+        uses: actions/checkout@v4
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Render the print stylesheet as PDF
+        run: |
+          chrome --headless --disable-gpu --no-pdf-header-footer \
+            --print-to-pdf="$GITHUB_WORKSPACE/Parmeshwar-Gudadhe-Resume.pdf" \
+            "file://$GITHUB_WORKSPACE/index.html"
+
+      - name: Commit the refreshed PDF
+        run: |
+          if git diff --quiet -- Parmeshwar-Gudadhe-Resume.pdf; then
+            echo "PDF is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Parmeshwar-Gudadhe-Resume.pdf
+          git commit -m "chore: regenerate resume PDF"
+          git push
