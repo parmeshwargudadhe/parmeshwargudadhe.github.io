@@ -22,7 +22,7 @@ jobs:
 
       - name: Render the print stylesheet as PDF
         run: |
-          chrome --headless --disable-gpu --no-pdf-header-footer \
+          chrome --headless --no-sandbox --disable-gpu --no-pdf-header-footer \
             --print-to-pdf="$GITHUB_WORKSPACE/Parmeshwar-Gudadhe-Resume.pdf" \
             "file://$GITHUB_WORKSPACE/index.html"
 
