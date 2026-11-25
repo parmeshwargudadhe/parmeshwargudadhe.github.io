@@ -20,6 +20,10 @@ body {
 .header::before { content: "DEVOPS · CLOUD · AUTOMATION"; display: block; margin-bottom: .85rem; color: var(--brand); font-size: .7rem; font-weight: 800; letter-spacing: .16em; }
 .identity h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.055em; line-height: 1.05; }
 .role { margin: .5rem 0 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.18rem); }
+.header-updated { margin: .35rem 0 0; color: var(--muted); font-size: .78rem; }
+.resume-download { position: absolute; top: 0; right: 0; display: inline-flex; align-items: center; gap: .45rem; padding: .7rem .9rem; border-radius: 8px; background: var(--brand); color: #fff; font-size: .88rem; font-weight: 750; text-decoration: none; box-shadow: 0 4px 10px rgba(9,105,218,.2); }
+.resume-download span { padding-left: .45rem; border-left: 1px solid rgba(255,255,255,.45); font-size: .72rem; letter-spacing: .08em; }
+.resume-download:hover, .resume-download:focus-visible { background: var(--brand-dark); color: #fff; }
 .contact, .contact-left, .contact-right { display: flex; align-items: center; gap: .4rem .8rem; }
 .contact { justify-content: space-between; margin: 1.25rem 0 0; }
 .contact-left, .contact-right { flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
@@ -61,6 +65,7 @@ strong { color: #0d3d70; }
 @media (max-width: 40rem) {
   body { padding: 0; background: var(--surface); } .page { padding: 1.5rem 1.1rem; border: 0; border-radius: 0; box-shadow: none; }
   .contact { align-items: flex-start; flex-direction: column; } .contact-right { justify-content: flex-start; } .meta { white-space: normal; }
+  .resume-download { position: static; width: fit-content; margin-top: 1rem; }
   .entry { padding: 1rem 0; } .two-up { grid-template-columns: 1fr; gap: 1.8rem; } .skill-group { grid-template-columns: 1fr; gap: .2rem; }
   .updated { margin-left: 0; flex-basis: 100%; }
 }
@@ -71,5 +76,5 @@ strong { color: #0d3d70; }
   .header { padding-bottom: .7rem; } .header::before { display: none; } .identity h1 { font-size: 1.4rem; } .role { margin-top: .2rem; font-size: 1rem; } .contact { margin-top: .4rem; font-size: 9.5pt; }
   section { margin-top: .95rem; } section > h2 { margin-bottom: .5rem; } .entry { padding: 0; border: 0; border-radius: 0; } .entry + .entry { margin-top: .7rem; } .entry:hover { background: transparent; }
   .entry ul { margin-top: .25rem; } .entry li { margin: .15rem 0; } .skill-group { padding: .1rem 0; border: 0; } .two-up { gap: 2.5rem; } strong { color: #000; } a { color: #000; text-decoration: none; }
-  .btn, .linkish { display: none; } .footer { margin-top: 1rem; } .entry, .skill-group, .certs li, .two-up > div { break-inside: avoid; }
+  .resume-download { display: none; } .entry, .skill-group, .certs li, .two-up > div { break-inside: avoid; }
 }
