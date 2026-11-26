@@ -71,7 +71,13 @@ strong { color: #0d3d70; }
   :root { --surface: #fff; --ink: #000; --muted: #333; --line: #ccc; --brand: #000; --brand-dark: #000; }
   body { padding: 0; background: #fff; font-size: 10.5pt; line-height: 1.4; } .page { max-width: none; padding: 0; border: 0; border-radius: 0; box-shadow: none; }
   .header { padding-bottom: .7rem; } .header::before { display: none; } .identity h1 { font-size: 1.4rem; } .role { margin-top: .2rem; font-size: 1rem; } .contact { margin-top: .4rem; font-size: 9.5pt; }
-  section { margin-top: .95rem; } section > h2 { margin-bottom: .5rem; } .entry { padding: 0; border: 0; border-radius: 0; } .entry + .entry { margin-top: .7rem; } .entry:hover { background: transparent; }
-  .entry ul { margin-top: .25rem; } .entry li { margin: .15rem 0; } .skill-group { padding: .1rem 0; border: 0; } .two-up { gap: 2.5rem; } strong { color: #000; } a { color: #000; text-decoration: none; }
+  section { margin-top: .95rem; }
+  section > h2 { display: block; margin-bottom: .5rem; padding-bottom: .3rem; border-bottom: 1px solid var(--line); }
+  section > h2::after { display: none; }
+  .entry { padding: 0; border: 0; border-radius: 0; } .entry + .entry { margin-top: .7rem; } .entry:hover { background: transparent; }
+  .entry ul { margin-top: .25rem; } .entry li { margin: .15rem 0; } .skill-group { padding: .1rem 0; border: 0; }
+  .two-up { display: block; }
+  .two-up > div + div { margin-top: 1rem; }
+  strong { color: #000; } a { color: #000; text-decoration: none; }
   .resume-download { display: none; } .entry, .skill-group, .certs li, .two-up > div { break-inside: avoid; }
 }
