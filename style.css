@@ -53,8 +53,9 @@ strong { color: #0d3d70; }
 .two-up .entry { padding: 0; border: 0; border-radius: 0; }
 .two-up .entry:hover { background: transparent; }
 .two-up .meta { white-space: normal; }
-.two-up .entry h3 { font-size: .95rem; font-weight: 600; }
-.two-up .org { font-weight: 500; }
+.two-up .entry h3 { font-size: 1rem; font-weight: 600; }
+.two-up .meta { font-size: .95rem; }
+.two-up .org { font-weight: 400; }
 .certs { margin: 0; padding-left: 1.15rem; } .certs li { margin: .3rem 0; }
 .footer { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1rem; margin-top: 2.75rem; padding-top: 1.4rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; }
 .footer p { margin: 0; } .updated { margin-left: auto; }
