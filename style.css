@@ -81,6 +81,6 @@ strong { color: #0d3d70; }
   .two-up > div + div { margin-top: 1rem; }
   strong { color: #000; } a { color: #000; text-decoration: none; }
   .c-mail a, .c-tel a { color: #1f5fd0; }
-  .footer { margin-top: .65rem; padding-top: .55rem; font-size: 9pt; }
+  .footer { display: none; }
   .resume-download { display: none; } .entry, .skill-group, .certs li, .two-up > div { break-inside: avoid; }
 }
